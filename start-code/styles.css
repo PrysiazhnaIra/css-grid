@@ -30,5 +30,7 @@
 .container-two {
   display: grid;
   border: 10px solid rgb(78, 43, 61);
-  grid-template-columns: repeat(auto-fit, 150px);
+  /*responsive layout*/
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
 }
